@@ -8,8 +8,9 @@ void main() {
     "saturday",
     "sunday"
   ];
-  for (var i = 0; i < days.length; i++) {
-    days.removeLast()[i];
+  List dais = List.of(days);
+  for (var i = 0; i < dais.length; i++) {
+    days.removeLast();
     print(days);
   }
 }
