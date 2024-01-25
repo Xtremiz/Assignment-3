@@ -1,3 +1,4 @@
 void main() {
-  print("hello world");
+  List names = ["Muhammed Ahmed", "Ali Raza", "Shoaib Saleem", "Abdul Nafay"];
+  print(names);
 }
