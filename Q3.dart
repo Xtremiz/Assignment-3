@@ -8,8 +8,9 @@ void main() {
     "saturday",
     "sunday"
   ];
-  List dais = List.of(days);
-  for (var i = 0; i < dais.length; i++) {
+
+  while (days.isNotEmpty) {
+    // we gave the condition to while loop which is true so the loop works until the remove condition is applied to all values
     days.removeLast();
     print(days);
   }
