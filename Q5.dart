@@ -6,5 +6,9 @@ void main() {
     "Ali": 99855,
     "Zafar": 9984
   };
-  phonekeys.removeWhere((key, value) => value < 4);
+  phonekeys.removeWhere((key, value) =>
+      value >
+      9999); // by using remowhere condition we are filter out other values thruogh the map phone keys
+  print(phonekeys
+      .keys); // and by adding > the less than sign we are restricted to have values more than of greater than 9999 which actually is 5 values
 }
