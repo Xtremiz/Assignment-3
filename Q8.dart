@@ -6,6 +6,6 @@ void main() {
     {'name': 'Sarah', 'eligible': true},
     {'name': 'Tom', 'eligible': false},
   ];
-  usersEligibility
-      .removeWhere((element) => usersEligibility.length['eligible'false]);
+  //usersEligibility
+  // .//removeWhere((element) => usersEligibility.length['eligible'false]);
 }
